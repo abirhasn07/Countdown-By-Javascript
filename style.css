@@ -1,0 +1,44 @@
+*{margin: 0;
+padding: 0;
+font-family: 'Lato', sans-serif;}
+
+
+.countdown{
+    width: 95%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.main-headline{
+    font-size: 5rem;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+.countdown-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+  
+}
+.day , .hour , .minute , .second {
+    font-size: 2rem;
+} 
+
+.countdown-img{
+    width: 50%;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.waiting{
+    height:50vh;
+    
+}
